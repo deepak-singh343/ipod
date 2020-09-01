@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: darkturquoise;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.ipod{
+  height:450px;
+  width:250px;
+  background-color: black;
+  position: absolute;
+  top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+  border:1px solid black;
+  border-radius: 18px;
+}
+
+/* screen */
+.list-container{
+  height:200px;
+  width:90%;
+  margin-left:12px;
+  margin-top:20px;
+  
+}
+
+.list-container ul{
+  padding:0px;
+  margin:0px;
+} 
+.options{
+  padding:10px;
+  font-weight:600;
+}
+.list-item{
+  list-style-type: none;
+  padding:10px;
+  background-color: white;
+}
+
+/* control pad */
+.controls-container{
+width:200px;
+height:200px;
+}
+#outer-wheel{
+  width:200px;
+  height:200px;
+  background-color:white; 
+  border-radius: 50%;
+  position: absolute;
+  bottom: 10px;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.inner-wheel{
+  width:90px;
+  height:90px;
+  background-color:black;
+  border-radius: 50%;
+  border:1px solid black;
+  position: absolute;
+  left:0;
+  right:0;
+  bottom:59px;
+  margin:auto;
+  z-index:1;
+}
+#ok{
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left:25px;
+  right:0;
+  top:35px;
+  border:0px;
+  outline:none;
+  background-color: black;
+}
+.Menu{
+    position: absolute;
+    top: 263px;
+    left: 90px;
+    font-weight: 700;
+    font-size: 20px;
+    outline: none;
+    border: 0px;
+    background-color: white;
+}
+
+#forward{
+  height:25px;
+  width:25px;
+  position: absolute;
+  top:95px;
+  left:160px;
+}
+
+#backward{
+  height:25px;
+  width:25px;
+  position: absolute;
+  top:95px;
+  left:13px;
+}
+#next{
+  height:20px;
+  width:20px;
+  position: absolute;
+  bottom: 10px;
+  left:95px;
+}
